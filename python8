@@ -1,0 +1,72 @@
+John wants to know how to calculate the subject marks.could you please help him to learn marks calculation in programming.
+
+Input Format
+
+First input consists of String
+Second input consists of integer
+Third input consists of integer
+Fourth input consists of integer
+Fifth input consists of integer
+Sixth input consists of integer
+Constraints
+
+No Constraints
+
+Output Format
+
+Execute the total and Average Marks.
+Sample Input 0
+
+John
+100
+99
+100
+100
+99
+Sample Output 0
+
+Name of the Student:John
+Total marks:498
+Average marks:99.6
+Contest ends in 7 days
+Submissions: 51
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+ 
+1
+​Test Case #0
+ Test Case #1
+ Test Case #2
+ Test Case #3
+ Test Case #4
+
+Submitted Code
+Language: Python 3
+
+ Open in editor
+1
+a=input()
+2
+b=int(input())
+3
+c=int(input())
+4
+d=int(input())
+5
+e=int(input())
+6
+f=int(input())
+7
+total_marks=(b+c+d+e+f)
+8
+average_marks=((total_marks)/5)
+9
+print(f"Name of the Student:{a}")
+10
+print(f"Total marks:{total_marks}")
+11
+print(f"Average marks:{average_marks}")
