@@ -1,0 +1,57 @@
+sila wants to know how the Arithmetic operators are performing in programming.could you please help her to learn the Arithmetic calculation.
+
+Input Format
+
+First input consist of integer
+second input consist of integer
+Constraints
+
+No Constraints
+
+Output Format
+
+execute the Arithmetic calculation values.
+Sample Input 0
+
+45
+7Test Case #0
+ Test Case #1
+ Test Case #2
+ Test Case #3
+ Test Case #4
+
+Submitted Code
+Language: Python 3
+
+ Open in editor
+1
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+2
+a=int(input())
+3
+b=int(input())
+4
+print(f"Addition={a+b}")
+5
+print(f"Subtraction={a-b}")
+6
+print(f"Multiplication={a*b}")
+7
+print(f"Division={a//b}")
+8
+print(f"Modulo={a%b}")
+Sample Output 0
+
+Addition=52
+Subtraction=38
+Multiplication=315
+Division=6
+Modulo=3
+Contest ends in 7 days
+Submissions: 47
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
